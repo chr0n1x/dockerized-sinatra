@@ -1,5 +1,7 @@
 # Dockerized Sinatra
 
+> You run `make`, go to http://localhost:8080 -- start coding.
+
 Simple Ruby 3.x Sinatra setup that should, "just work" if you have Docker installed. I've done this so many times that I figured that I would make a template repository for this setup.
 
 ## Goals / Purpose
