@@ -2,12 +2,13 @@
 
 source 'https://rubygems.org'
 
-gem 'puma', '~> 4.3'
-gem 'sinatra', '~> 2.1'
+gem 'puma', '~> 6.4'
+gem 'rackup', '~> 2.1'
+gem 'sinatra', '~> 4.0'
 
 group :development do
-  gem 'rack-spec', '~> 0.1'
-  gem 'rack-test', '~> 0.1'
-  gem 'rspec', '~> 2.14'
+  gem 'rack-spec', '~> 0.1.8'
+  gem 'rack-test', '~> 2.1'
+  gem 'rspec', '~> 3.0'
   gem 'rubocop', '~> 1'
 end
